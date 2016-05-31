@@ -14,6 +14,13 @@
 		88E8386D1CFCBD410065FDE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E8386B1CFCBD410065FDE7 /* LaunchScreen.storyboard */; };
 		88E838781CFCBD410065FDE7 /* HW2_DropBox_CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E838771CFCBD410065FDE7 /* HW2_DropBox_CarouselTests.swift */; };
 		88E838831CFCBD410065FDE7 /* HW2_DropBox_CarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E838821CFCBD410065FDE7 /* HW2_DropBox_CarouselUITests.swift */; };
+		88E838911CFCBE380065FDE7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E838901CFCBE380065FDE7 /* Common.swift */; };
+		88E838931CFCBE790065FDE7 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E838921CFCBE790065FDE7 /* IntroViewController.swift */; };
+		88E838951CFCC0E10065FDE7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E838941CFCC0E10065FDE7 /* LoginViewController.swift */; };
+		88E838971CFCC9AC0065FDE7 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E838961CFCC9AC0065FDE7 /* TutorialViewController.swift */; };
+		88E838991CFD073B0065FDE7 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E838981CFD073B0065FDE7 /* TimelineViewController.swift */; };
+		88E8389B1CFD0A170065FDE7 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8389A1CFD0A170065FDE7 /* ConversationsViewController.swift */; };
+		88E8389D1CFD1E8F0065FDE7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E8389C1CFD1E8F0065FDE7 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		88E8387E1CFCBD410065FDE7 /* HW2-DropBox CarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW2-DropBox CarouselUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E838821CFCBD410065FDE7 /* HW2_DropBox_CarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW2_DropBox_CarouselUITests.swift; sourceTree = "<group>"; };
 		88E838841CFCBD410065FDE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E838901CFCBE380065FDE7 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		88E838921CFCBE790065FDE7 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		88E838941CFCC0E10065FDE7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		88E838961CFCC9AC0065FDE7 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		88E838981CFD073B0065FDE7 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		88E8389A1CFD0A170065FDE7 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		88E8389C1CFD1E8F0065FDE7 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,7 @@
 		88E838561CFCBD410065FDE7 = {
 			isa = PBXGroup;
 			children = (
+				88E838941CFCC0E10065FDE7 /* LoginViewController.swift */,
 				88E838611CFCBD410065FDE7 /* HW2-DropBox Carousel */,
 				88E838761CFCBD410065FDE7 /* HW2-DropBox CarouselTests */,
 				88E838811CFCBD410065FDE7 /* HW2-DropBox CarouselUITests */,
@@ -100,7 +115,13 @@
 				88E838621CFCBD410065FDE7 /* AppDelegate.swift */,
 				88E838641CFCBD410065FDE7 /* ViewController.swift */,
 				88E838661CFCBD410065FDE7 /* Main.storyboard */,
+				88E838981CFD073B0065FDE7 /* TimelineViewController.swift */,
+				88E8389A1CFD0A170065FDE7 /* ConversationsViewController.swift */,
+				88E8389C1CFD1E8F0065FDE7 /* SettingsViewController.swift */,
+				88E838961CFCC9AC0065FDE7 /* TutorialViewController.swift */,
+				88E838921CFCBE790065FDE7 /* IntroViewController.swift */,
 				88E838691CFCBD410065FDE7 /* Assets.xcassets */,
+				88E838901CFCBE380065FDE7 /* Common.swift */,
 				88E8386B1CFCBD410065FDE7 /* LaunchScreen.storyboard */,
 				88E8386E1CFCBD410065FDE7 /* Info.plist */,
 			);
@@ -257,7 +278,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				88E838651CFCBD410065FDE7 /* ViewController.swift in Sources */,
+				88E838911CFCBE380065FDE7 /* Common.swift in Sources */,
 				88E838631CFCBD410065FDE7 /* AppDelegate.swift in Sources */,
+				88E8389B1CFD0A170065FDE7 /* ConversationsViewController.swift in Sources */,
+				88E838951CFCC0E10065FDE7 /* LoginViewController.swift in Sources */,
+				88E838991CFD073B0065FDE7 /* TimelineViewController.swift in Sources */,
+				88E838971CFCC9AC0065FDE7 /* TutorialViewController.swift in Sources */,
+				88E838931CFCBE790065FDE7 /* IntroViewController.swift in Sources */,
+				88E8389D1CFD1E8F0065FDE7 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +510,7 @@
 				88E838891CFCBD410065FDE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88E8388A1CFCBD410065FDE7 /* Build configuration list for PBXNativeTarget "HW2-DropBox CarouselTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +519,7 @@
 				88E8388C1CFCBD410065FDE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88E8388D1CFCBD410065FDE7 /* Build configuration list for PBXNativeTarget "HW2-DropBox CarouselUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +528,7 @@
 				88E8388F1CFCBD410065FDE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
