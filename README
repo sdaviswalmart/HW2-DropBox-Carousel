@@ -21,9 +21,9 @@ Time spent: `<15>`
   - [X] Display a scrollable view of images.
   - [X] User can tap on the conversations button to see the conversations screen (push).
   - [X] User can tap on the profile image to see the settings view (modal from below).
-- [ ] Settings.
+- [X] Settings.
   - [X] User can dismiss the settings screen.
-  - [X] User can log out.
+  - [] User can log out.
 
 
 
